@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{background-color: #FFFB05}
+
+h2{
+  margin-top: 25px;
+  margin-left: 84vh;
+  font-size: 270%;
+  font-weight: 200;
+}
+
+img{
+  height:80px;
+  width:80px;
+}
+
+.container{
+  margin-top: 9vh;
+  margin-left: 80vh;
+}
+
+td{
+  border: 6px solid #fff;
+  cursor: pointer;
+  padding: 30px;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 600%;
+}
+
+table{border-collapse: collapse;}
+
+
+
+/**************************************************************************************/
+.block-1{
+  border-left: none;
+  border-top: none;
+}
+
+.block-2{border-top: none;}
+
+.block-3{
+  border-top: none;
+  border-right: none;
+}
+
+.block-4{border-left: none;}
+
+.block-6{border-right: none;}
+
+.block-7{
+  border-left: none;
+  border-bottom: none;
+}
+
+.block-8{border-bottom: none;}
+
+.block-9{
+  border-bottom: none;
+  border-right: none;
+}
+
+td:hover{
+  background-color: green;
+}
+
+/************Display Message********************/
+
+.bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content{
+  width: 400px;
+  height: 250px;
+  background-color:#fff;
+  opacity: 0.9;
+  border-radius: 4px;
+  align-items: center;
+  padding: 30px;
+}
+
+.close{
+  padding: 10px;
+  border: none;
+  font-size: 200%;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+.close:hover{
+  background-color:#000;
+  color:#fff;
+  cursor: pointer;
+}
+
+.winning-message{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 200%;
+}
